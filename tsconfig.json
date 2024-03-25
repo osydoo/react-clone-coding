@@ -1,0 +1,27 @@
+{
+    "display": "Default",
+    "compilerOptions": {
+      "composite": false,
+      "declaration": true,
+      "declarationMap": true,
+      "esModuleInterop": true,
+      "forceConsistentCasingInFileNames": true,
+      "noEmit": true,
+      "inlineSources": false,
+      "isolatedModules": true,
+      "moduleResolution": "NodeNext",
+      "module": "nodeNext",
+      "noUnusedLocals": false,
+      "noUnusedParameters": false,
+      "preserveWatchOutput": true,
+      "skipLibCheck": true,
+      "strict": true,
+      "strictNullChecks": true,
+      "paths": {
+        "@React": ["react-clone/react"],
+        "@ReactDOM": ["react-clone/react-dom"],
+      }
+    },
+    "exclude": ["node_modules"]
+  }
+  
